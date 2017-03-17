@@ -1,16 +1,16 @@
 # iObject
 
-Homepage
+##Homepage
 ![alt tag](https://github.com/Frcerv11/iObject/blob/master/misc/home.png)
 
-Article
+##Article
 ![alt tag](https://github.com/Frcerv11/iObject/blob/master/misc/article.png)
 
-Admin Login
+##Admin Login
 ![alt tag](https://github.com/Frcerv11/iObject/blob/master/misc/login.png)
 
-Admin Dashboard
+##Admin Dashboard
 ![alt tag](https://github.com/Frcerv11/iObject/blob/master/misc/dashboard.png)
 
-Petition Form
+##Petition Form
 ![alt tag](https://github.com/Frcerv11/iObject/blob/master/misc/form.png)
