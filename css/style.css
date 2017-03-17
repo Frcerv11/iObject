@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+body{
+  background-color: #fafafa!important;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    ffont-family: 'Open Sans', sans-serif;
+}
+p, div {
+    ffont-family: 'Open Sans', sans-serif;
+}
+nav{
+  z-index: 10000;
+}
+img{
+  max-width: 900px !important;
+  width: 100%;
+  height: auto !important;
+}
+.navbar-default{
+  margin-bottom: 0px !important;
+  position: fixed !important;
+  width: 100%;
+  border-radius: 0px !important;
+  background-color:#1abc9c !important;
+  border: none !important;
+}
+.navbar-default .navbar-toggle {
+    border:none;
+}
+.container{
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+.container-fluid{
+  max-width: 1200px;
+}
+.navbar-default a{
+  color: #fafafa !important;
+}
+.navbar-default .navbar-nav>.active>a{
+  background-color: #fafafa !important;
+  color: black !important;
+}
+.jumbotron {
+  background-image: url("http://riaclu.org/images/uploads/Protesters.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-bottom: 0px !important;
+  text-align: center;
+  height: 400px;
+}
+.jumbotron .overlay{
+  width: 100%;
+  height: 400px;
+  background-color: rgba(30, 30, 30, 0.6);
+  z-index: 10;
+  top: 0px;
+  position: absolute;
+}
+.jumbotron .container{
+  margin-top: 130px;
+  height: 150px;
+  z-index: 2000;
+}
+.jumbotron .container h1{
+  color:#5ed0b9;
+}
+.jumbotron .container small{
+    color:lightgrey;
+}
+#sub-line{
+  background-color: #1abc9c;
+  width: 100%;
+
+  height: 160px;
+}
+#sub-line p{
+  padding-top: 30px;
+  font-size: 28px;
+  text-align: center;
+  color:white;
+}
+.row{
+  padding-top: 40px;
+}
+#article #title{
+
+}
+#article #title a{
+    color:black !important;
+}
+#article #subtitle{
+  color: 	#bdc3c7;
+}
+#article #more{
+  color:	#bdc3c7;
+}
+#article #meta{
+  display: inline-block;
+  width: 20%;
+  float: left;
+  background-color:black;
+  max-width: 130px;
+  margin-right: 5%;
+  padding: 12px;
+}
+#article #meta #author{
+  color:white;
+  font-size: 18px;
+}
+#article #meta p{
+  font-size: 10px;
+  color: white;
+}
+#article #meta p span{
+  padding-right: 3px;
+}
+#article #content{
+  display:inline-block;
+  width: 75%;
+  float: left;
+}
+footer{
+  background-color: black;
+  width: 100% !important;
+  height: 250px !important;
+  margin: 0px !important;
+}
+footer .col-lg-12 {
+  width: 66.66% !important;
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+  margin-top:40px;
+  max-width: 1200px !important;
+}
+footer p{
+  color:white;
+}
+footer a{
+  color:#1abc9c;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .container h1{
+    font-size: 40px;
+  }
+  #sub-line p {
+      font-size: 20px;
+  }
+  .page-header {
+      border:none !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #article #meta {
+      width: 23%;
+      margin-right: 2%;
+  }
+}

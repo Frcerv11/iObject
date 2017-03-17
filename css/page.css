@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+*{
+  font-family: 'Open Sans', sans-serif !important;
+}
+.container{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.navbar-default{
+  margin-bottom: 0px !important;
+  position: fixed !important;
+  width: 100%;
+  border-radius: 0px !important;
+  background-color:#1ABC9C !important;
+  border: none !important;
+  top:0px;
+}
+.container-fluid{
+  max-width: 1200px;
+}
+.navbar-default a{
+  color: white !important;
+}
+.navbar-default .navbar-nav>.active>a{
+  background-color: white !important;
+  color: black !important;
+}
+#meta{
+  margin-bottom: 25px;
+}
+
+#meta h2,#db-timestamp{
+  color:rgba(0,0,0,.44);
+  margin-top: 5px;
+
+}
+
+#meta h2{
+  border-left: solid;
+  padding-left: 20px;
+          font-size: 25px;
+}
+#article-cont{
+  margin-bottom: 100px;
+}
+#article-cont .image-cont{
+  text-align: center;
+  margin-bottom: 25px;
+}
+#article-cont p{
+  --x-height-multiplier: 0.35;
+  --baseline-multiplier: 0.179;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+}
+img {max-width:100%; height:auto}
+#petition-button{
+  border-radius: 8px;
+  border: solid 1px;
+  background-color: #1ABC9C;
+  padding: 1%;
+  cursor:pointer;
+  color:white;
+  width: 8.5%;
+  margin-top: 20px;
+}
+#petition-form{
+  display: none;
+  position:fixed;
+  top:0;
+  left:0;
+  background:rgba(0,0,0,0.6);
+  z-index:5;
+  width:100%;
+  height:100%;
+}
+#petition-form #form-cont{
+
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  background-color: white;
+  z-index: 100;
+  height: 400px;
+  margin-top: -200px;
+  width: 350px;
+  margin-left: -167px;
+  text-align: center;
+  background-color: #1abc9c ;
+  -webkit-box-shadow: 0px 5px 8px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 5px 8px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 5px 8px 0px rgba(50, 50, 50, 0.75);
+}
+#form-cont span{
+  font-size: 30px;
+  position: absolute;
+  left: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#form-cont h1,h2{
+  color:white;
+}
+#form-cont h1{
+  font-weight: bold;
+}
+#form-cont h2{
+  font-weight: lighter;
+  margin-top: 0px;
+}
+
+#petition-form input{
+  border: none;
+  width: 290px;
+  padding: 5px;
+  height:30px;
+  margin-top: 10px;
+}
+#petition-form input[type="submit" i]{
+  background-color: #0d5e4e;
+  color:white;
+  padding: 0px;
+  font-weight: bold;
+}
+footer{
+  background-color: black;
+  width: 100% !important;
+  height: 250px !important;
+  margin: 0px !important;
+}
+footer .col-lg-12 {
+  width: 66.66% !important;
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+  margin-top:80px;
+  max-width: 1200px !important;
+}
+footer p{
+  color:white;
+}
+footer a{
+  color:#1abc9c;
+}

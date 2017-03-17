@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+html {
+  background: url("http://riaclu.org/images/uploads/Protesters.jpg") no-repeat 50% 40% fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+body{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+#form-cont{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -200px;
+  background-color: #1abc9c ;
+  z-index: 100;
+  height: 180px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  padding:50 90 180 90;
+  -webkit-box-shadow: 0px 5px 8px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 5px 8px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 5px 8px 0px rgba(50, 50, 50, 0.75);
+}
+
+
+input{
+  margin-bottom: 30px;
+  border:none;
+  border: solid 1px #e7e7e7 !important;
+  width: 200px;
+  padding: 5px;
+  height:30px;
+}
+input[type="submit" i]{
+  background-color: white;
+  padding: 0px;
+  font-weight: bold;
+}
+footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  height: 200px;
+  background-color:black;
+  text-align: center;
+}
+h1,h2{
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding: 0px !important;
+}
+h2{
+  font-weight: lighter;
+  margin-bottom: 10px !important;
+}
